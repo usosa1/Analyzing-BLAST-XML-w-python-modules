@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>testdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_081223.1 enoyl-CoA delta isomerase 3, peroxisomal [Mus musculus]</BlastOutput_query-def>
+  <BlastOutput_query-len>317</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>NP_081223.1 enoyl-CoA delta isomerase 3, peroxisomal [Mus musculus]</Iteration_query-def>
+  <Iteration_query-len>317</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8933</Hit_id>
+  <Hit_def>ENSMUSP00000021853.5 pep chromosome:GRCm38:13:34946614:34963810:-1 gene:ENSMUSG00000021416.11 transcript:ENSMUST00000021853.11 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci3 description:enoyl-Coenzyme A delta isomerase 3 [Source:MGI Symbol;Acc:MGI:1916373]</Hit_def>
+  <Hit_accession>8933</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>656.366</Hsp_bit-score>
+      <Hsp_score>1692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAKAKL</Hsp_qseq>
+      <Hsp_hseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAKAKL</Hsp_hseq>
+      <Hsp_midline>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAKAKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8932</Hit_id>
+  <Hit_def>ENSMUSP00000132701.1 pep chromosome:GRCm38:13:34948084:34963788:-1 gene:ENSMUSG00000021416.11 transcript:ENSMUST00000164155.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci3 description:enoyl-Coenzyme A delta isomerase 3 [Source:MGI Symbol;Acc:MGI:1916373]</Hit_def>
+  <Hit_accession>8932</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK</Hsp_qseq>
+      <Hsp_hseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK</Hsp_hseq>
+      <Hsp_midline>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42430</Hit_id>
+  <Hit_def>ENSMUSP00000137411.1 pep chromosome:GRCm38:13:34977750:34994144:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000178421.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42430</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.13</Hsp_bit-score>
+      <Hsp_score>1289</Hsp_score>
+      <Hsp_evalue>1.13926e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAK</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVTLLGLFDAVFASDRATFHTPFSQLGQSPEACSSYTFPKMMGSAKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYAKLPPNAMRISKELIRKNEKEKLYAVNAEECTTLQARWLSEECMNAIMSFVSRKPK</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT+L LFDAVFASDRATFHTPFSQL Q PEACS+Y FPK+MG  KAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTY+KL PN MRISKELIRK+EK+KLY VNAEEC     R   EE   A+ +F+ RK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42422</Hit_id>
+  <Hit_def>ENSMUSP00000021854.6 pep chromosome:GRCm38:13:34977749:34994281:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000021854.13 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42422</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.13</Hsp_bit-score>
+      <Hsp_score>1289</Hsp_score>
+      <Hsp_evalue>1.13926e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAK</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVTLLGLFDAVFASDRATFHTPFSQLGQSPEACSSYTFPKMMGSAKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYAKLPPNAMRISKELIRKNEKEKLYAVNAEECTTLQARWLSEECMNAIMSFVSRKPK</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT+L LFDAVFASDRATFHTPFSQL Q PEACS+Y FPK+MG  KAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTY+KL PN MRISKELIRK+EK+KLY VNAEEC     R   EE   A+ +F+ RK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42423</Hit_id>
+  <Hit_def>ENSMUSP00000105880.2 pep chromosome:GRCm38:13:34977757:34994132:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000110251.8 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42423</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.901</Hsp_bit-score>
+      <Hsp_score>1291</Hsp_score>
+      <Hsp_evalue>1.22198e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAK</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVTLLGLFDAVFASDRATFHTPFSQLGQSPEACSSYTFPKMMGSAKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYAKLPPNAMRISKELIRKNEKEKLYAVNAEECTTLQARWLSEECMNAIMSFVSRKPK</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT+L LFDAVFASDRATFHTPFSQL Q PEACS+Y FPK+MG  KAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTY+KL PN MRISKELIRK+EK+KLY VNAEEC     R   EE   A+ +F+ RK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42421</Hit_id>
+  <Hit_def>ENSMUSP00000131735.1 pep chromosome:GRCm38:13:34977748:34994144:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000171229.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42421</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.516</Hsp_bit-score>
+      <Hsp_score>1290</Hsp_score>
+      <Hsp_evalue>3.21277e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKAK</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVTLLGLFDAVFASDRATFHTPFSQLGQSPEACSSYTFPKMMGSAKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYAKLPPNAMRISKELIRKNEKEKLYAVNAEECTTLQARWLSEECMNAIMSFVSRKPK</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT+L LFDAVFASDRATFHTPFSQL Q PEACS+Y FPK+MG  KAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTY+KL PN MRISKELIRK+EK+KLY VNAEEC     R   EE   A+ +F+ RK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42424</Hit_id>
+  <Hit_def>ENSMUSP00000129428.1 pep chromosome:GRCm38:13:34986067:35027094:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000170538.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42424</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>4.48219e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDR</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVTLLGLFDAVFASDR</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT+L LFDAVFASDR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42425</Hit_id>
+  <Hit_def>ENSMUSP00000126500.1 pep chromosome:GRCm38:13:34986106:35027094:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000163280.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42425</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>3.10871e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVT</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPLVAVVNGPAVGISVT</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPLVAVVNGPAVGI+VT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42426</Hit_id>
+  <Hit_def>ENSMUSP00000129477.1 pep chromosome:GRCm38:13:34986148:34994123:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000170989.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42426</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>2.00078e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPL</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFPKPL</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFPKPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42427</Hit_id>
+  <Hit_def>ENSMUSP00000130076.1 pep chromosome:GRCm38:13:34986157:34994132:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000167036.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42427</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>4.73092e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFP</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNFTSATGGIEEAASNGAVLLRDFVNSFIDFP</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N  +  G I++  +    +LR+FVN FIDFP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42428</Hit_id>
+  <Hit_def>ENSMUSP00000129164.1 pep chromosome:GRCm38:13:34987525:34994122:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000171258.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42428</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>3.02064e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNL</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMYRDIILALKNASTDNTVMAVFTGTGDYYCSGNDLTNF</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY DI+ ALKNASTDN+V+ VFTGTGDYY SGNDL N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|57714</Hit_id>
+  <Hit_def>ENSMUSP00000131784.2 pep chromosome:GRCm38:13:35741313:35874058:1 gene:ENSMUSG00000059288.14 transcript:ENSMUST00000163595.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Cdyl description:chromodomain protein, Y chromosome-like [Source:MGI Symbol;Acc:MGI:1339956]</Hit_def>
+  <Hit_accession>57714</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>3.70465e-50</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>EKARESKDILVTSEDGITKITFN-RPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKI---LREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEEC</Hsp_qseq>
+      <Hsp_hseq>ESAYRYRDIVVRKQDGFTHILLSTKSSENNSLNPEVMKEVQSALSTAAADDSKLVLLSAVGSVFCCGLDFIYFIRRLTD--DRKRESTKMADAIRNFVNTFIQFKKPIIVAVNGPAIGLGASILPLCDVVWANEKAWFQTPYTTFGQSPDGCSTVMFPKIMGGASANEMLFSGRKLTAQEACGKGLVSQVFWPGTFTQEVMVRIKELASCNPVVLEESKALVRCNMKMELEQANEREC</Hsp_hseq>
+      <Hsp_midline>E A   +DI+V  +DG T I  + + ++ N+++ ++  ++  AL  A+ D+S + + +  G  +  G D    I    +  D    STK+   +R FVN FI F KP++  VNGPA+G+  +IL L D V+A+++A F TP++   Q P+ CST MFPKIMG   A EML  G+KLTA+EA  +GLV++VF   TF  EV  R+K  +  +P V+  SK L+R + K +L   N  EC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|57712</Hit_id>
+  <Hit_def>ENSMUSP00000074707.6 pep chromosome:GRCm38:13:35659833:35874063:1 gene:ENSMUSG00000059288.14 transcript:ENSMUST00000075220.13 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Cdyl description:chromodomain protein, Y chromosome-like [Source:MGI Symbol;Acc:MGI:1339956]</Hit_def>
+  <Hit_accession>57712</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>1.04602e-49</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>566</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>EKARESKDILVTSEDGITKITFN-RPTKKNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKI---LREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEEC</Hsp_qseq>
+      <Hsp_hseq>ESAYRYRDIVVRKQDGFTHILLSTKSSENNSLNPEVMKEVQSALSTAAADDSKLVLLSAVGSVFCCGLDFIYFIRRLTD--DRKRESTKMADAIRNFVNTFIQFKKPIIVAVNGPAIGLGASILPLCDVVWANEKAWFQTPYTTFGQSPDGCSTVMFPKIMGGASANEMLFSGRKLTAQEACGKGLVSQVFWPGTFTQEVMVRIKELASCNPVVLEESKALVRCNMKMELEQANEREC</Hsp_hseq>
+      <Hsp_midline>E A   +DI+V  +DG T I  + + ++ N+++ ++  ++  AL  A+ D+S + + +  G  +  G D    I    +  D    STK+   +R FVN FI F KP++  VNGPA+G+  +IL L D V+A+++A F TP++   Q P+ CST MFPKIMG   A EML  G+KLTA+EA  +GLV++VF   TF  EV  R+K  +  +P V+  SK L+R + K +L   N  EC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|55331</Hit_id>
+  <Hit_def>ENSMUSP00000104730.2 pep chromosome:GRCm38:8:116574400:116732991:-1 gene:ENSMUSG00000031758.10 transcript:ENSMUST00000109102.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Cdyl2 description:chromodomain protein, Y chromosome-like 2 [Source:MGI Symbol;Acc:MGI:1923046]</Hit_def>
+  <Hit_accession>55331</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>9.54734e-49</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KDILVTSEDGITKITFNRPTK-KNAISFQMYLDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKI---LREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEEC</Hsp_qseq>
+      <Hsp_hseq>RDIVVRKEEGFTHILLSSQTSDNNALTPEIMKEVRRALCNAATDDSKLLLLSAVGSVFCSGLDYSYLIGRLS--SDRRKESTRIAEAIRDFVKAFIQFKKPIVVAINGPALGLGASILPLCDIVWASEKAWFQTPYATIRLTPAGCSSYTFPQILGVALANEMLFCGRKLTAQEACSRGLVSQVFWPTTFSQEVMLRVKEMASCSAVVLEESKCLVRSFLKSVLEEVNEKEC</Hsp_hseq>
+      <Hsp_midline>+DI+V  E+G T I  +  T   NA++ ++  ++  AL NA+TD+S + + +  G  + SG D   LI       D    ST+I   +R+FV  FI F KP+V  +NGPA+G+  +IL L D V+AS++A F TP++ +   P  CS+Y FP+I+G   A EML  G+KLTA+EA ++GLV++VF  +TF  EV  R+K  +  S  V+  SK L+R   K  L  VN +EC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42429</Hit_id>
+  <Hit_def>ENSMUSP00000130283.1 pep chromosome:GRCm38:13:34990218:34993462:-1 gene:ENSMUSG00000021417.15 transcript:ENSMUST00000169759.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci2 description:enoyl-Coenzyme A delta isomerase 2 [Source:MGI Symbol;Acc:MGI:1346064]</Hit_def>
+  <Hit_accession>42429</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.2885e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKIT</Hsp_qseq>
+      <Hsp_hseq>MPKPGMLDFVNKAKWDAWNALGSLPKETARQNYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKIT</Hsp_hseq>
+      <Hsp_midline>MPKPG+ +FVNKA WDA NALGSLPKETAR+NYVDLVSSLSSSSEAPSQGKRGADEKARESKDILVTSEDGITKIT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|50869</Hit_id>
+  <Hit_def>ENSMUSP00000037371.2 pep chromosome:GRCm38:2:6188465:6213033:-1 gene:ENSMUSG00000039063.5 transcript:ENSMUST00000042658.4 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc3 description:enoyl Coenzyme A hydratase domain containing 3 [Source:MGI Symbol;Acc:MGI:1915106]</Hit_def>
+  <Hit_accession>50869</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.62011e-24</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>SQGKRGADEKARESKDILVTSEDGITKITFNRPTKKNAISFQMY----LDIMHALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKI-MG---PTKAA-EMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRK</Hsp_qseq>
+      <Hsp_hseq>SPGSAGPAGSESEPRLTSTRQQDGIRNIVLSNPRRRNALSLAMLKSLRSDILH---EAESEDLKVIIISAEGPVFSSGHDLKELTDAQG--RDYHAEVFQTCSEVMMLIRNHPVPILAMVNGLATAAGCQLVASCDIAVASDKSSFATPGVNVGLF---CST---PAVALGRAVPRKVALEMLFTGEPISAQEALRHGLISKVVPEEQLEAETMRIAKKISSLSRSVVALGKATFYKQLPQDLRTAYFLASQAMVDNLALQDGQEGIEAFIQKR</Hsp_hseq>
+      <Hsp_midline>S G  G      E +      +DGI  I  + P ++NA+S  M      DI+H    A +++  + + +  G  +SSG+DLK L +  G  +D  A   +   E +    + P P++A+VNG A      ++A  D   ASD+++F TP   +      CST   P + +G   P K A EML  G+ ++A+EA   GL+++V PE   E E     K  S LS +V+ + K    K   Q L T       A ++ +  ++  + +  F+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|44195</Hit_id>
+  <Hit_def>ENSMUSP00000026538.6 pep chromosome:GRCm38:7:140105710:140116476:-1 gene:ENSMUSG00000025465.13 transcript:ENSMUST00000026538.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echs1 description:enoyl Coenzyme A hydratase, short chain, 1, mitochondrial [Source:MGI Symbol;Acc:MGI:2136460]</Hit_def>
+  <Hit_accession>44195</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>5.04368e-18</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>ITFNRPTKKNAISFQMYLDIMHALKNASTDNSV-ITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPN---VMRISKELI</Hsp_qseq>
+      <Hsp_hseq>IQLNRPKALNALCNGLIEELNQALETFEQDPAVGAIVLTGGDKAFAAGADIKEMQNRT--FQDCY--SSKFLSHW-DHITRVKKPVIAAVNGYALGGGCELAMMCDIIYAGEKAQFGQPEILLGTIPGAGGTQRLTRAVGKSLAMEMVLTGDRISAQDAKQAGLVSKIFP---VEKLVEEAIQCAEKIASNSKIVVAMAKESV</Hsp_hseq>
+      <Hsp_midline>I  NRP   NA+   +  ++  AL+    D +V   V TG    +++G D+K + N     QD    S+K L  + +      KP++A VNG A+G    +  + D ++A ++A F  P   L  IP A  T    + +G + A EM+L G +++A++A   GLV+++FP    E  V   ++   K++ N   V+ ++KE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10431</Hit_id>
+  <Hit_def>ENSMUSP00000066092.6 pep chromosome:GRCm38:7:28825217:28832247:1 gene:ENSMUSG00000053898.12 transcript:ENSMUST00000066264.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Ech1 description:enoyl coenzyme A hydratase 1, peroxisomal [Source:MGI Symbol;Acc:MGI:1858208]</Hit_def>
+  <Hit_accession>10431</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>3.15557e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>SLSSSSEAPSQGKRGADEKARES-KDILVTS-EDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSV-ITVFTGTGDYYSSGNDLKNLI--------NDAGEI----QDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLF-GKKLTAREAWAQGLVTEVFPE</Hsp_qseq>
+      <Hsp_hseq>SLSSSAQEAS--KRAPEEVSDHNYESIQVTSAQKHVLHVQLNRPEKRNAMNRAFWRELVECFQKISKDSDCRAVVVSGAGKMFTSGIDLMDMASELMQPSGDDAARIAWYLRDLISKYQKTFTVIEKC----PKPVIAAIHGGCIGGGVDLVSACDIRYCTQDAFFQIKEVDMGLAADVGTLQRLPKVIGNQSLVNELTFSARKMMADEALDSGLVSRVFQD</Hsp_hseq>
+      <Hsp_midline>SLSSS++  S  KR  +E +  + + I VTS +  +  +  NRP K+NA++   + +++   +  S D+     V +G G  ++SG DL ++         +DA  I    +D+++   K       C    PKP++A ++G  +G  V +++  D  + +  A F      +    +  +    PK++G       L F  +K+ A EA   GLV+ VF +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19268</Hit_id>
+  <Hit_def>ENSMUSP00000112011.3 pep chromosome:GRCm38:4:108165466:108179307:1 gene:ENSMUSG00000028601.18 transcript:ENSMUST00000116309.9 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc2 description:enoyl Coenzyme A hydratase domain containing 2 [Source:MGI Symbol;Acc:MGI:1289238]</Hit_def>
+  <Hit_accession>19268</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.47909e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLINDAGEIQDV-VATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK----LSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKA</Hsp_qseq>
+      <Hsp_hseq>LTGPNQGITEILMNRPNARNALGNVFVSELLEALAQLREDQQVRVLLFRSAVKGVFCAGADLK----EREQMSDVEVGTFVQRLRGLMSEIAAFPVPTIAAMDGFALGGGLELALACDLRIAASSAVMGLIETTRGLLPGAGGTQRLPRCLGVALAKELIFTGRRLNGAQARELGLVNHAVAQNEEGNAAYHRALALAQEILPQAPIAVRLGKVAIDRGMEVDIASGMAIEQMCYAQNIPTQDRLEGMAAFREKRA</Hsp_hseq>
+      <Hsp_midline>L     GIT+I  NRP  +NA+      +++ AL     D  V  +   +     + +G DLK    +  ++ DV V T  + LR  ++    FP P +A ++G A+G  + +    D   A+  A      +    +P A  T   P+ +G   A E++  G++L   +A   GLV     ++      + R    ++     +P  +R+ K  I +  +  + +  A E     + +P ++  + +  F  ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19261</Hit_id>
+  <Hit_def>ENSMUSP00000051268.6 pep chromosome:GRCm38:4:108165437:108179308:1 gene:ENSMUSG00000028601.18 transcript:ENSMUST00000052999.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc2 description:enoyl Coenzyme A hydratase domain containing 2 [Source:MGI Symbol;Acc:MGI:1289238]</Hit_def>
+  <Hit_accession>19261</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.47909e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLINDAGEIQDV-VATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK----LSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKA</Hsp_qseq>
+      <Hsp_hseq>LTGPNQGITEILMNRPNARNALGNVFVSELLEALAQLREDQQVRVLLFRSAVKGVFCAGADLK----EREQMSDVEVGTFVQRLRGLMSEIAAFPVPTIAAMDGFALGGGLELALACDLRIAASSAVMGLIETTRGLLPGAGGTQRLPRCLGVALAKELIFTGRRLNGAQARELGLVNHAVAQNEEGNAAYHRALALAQEILPQAPIAVRLGKVAIDRGMEVDIASGMAIEQMCYAQNIPTQDRLEGMAAFREKRA</Hsp_hseq>
+      <Hsp_midline>L     GIT+I  NRP  +NA+      +++ AL     D  V  +   +     + +G DLK    +  ++ DV V T  + LR  ++    FP P +A ++G A+G  + +    D   A+  A      +    +P A  T   P+ +G   A E++  G++L   +A   GLV     ++      + R    ++     +P  +R+ K  I +  +  + +  A E     + +P ++  + +  F  ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|27374</Hit_id>
+  <Hit_def>ENSMUSP00000124976.1 pep chromosome:GRCm38:1:52845013:52920981:1 gene:ENSMUSG00000041426.12 transcript:ENSMUST00000159352.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hibch description:3-hydroxyisobutyryl-Coenzyme A hydrolase [Source:MGI Symbol;Acc:MGI:1923792]</Hit_def>
+  <Hit_accession>27374</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.15775e-09</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTD-NSVITVFTGTGD-YYSSGNDLKNLINDAGEIQDVVATSTKILREFV--NCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTE</Hsp_qseq>
+      <Hsp_hseq>EAAEVLLERRGCGGVITLNRPKFLNALSLNMIRQIYPQLKTWEQDPDTFLIIIKGAGGKAFCAGGDIKALSEAKKARQNL--TQDLFREEYILNNAIASCQKPYVALIDGITMGGGVGLSVHGQFRVATERSLFAMPETGIGLFPDVGGGYFLPRLQGKL-GYFLALTGYRLKGRDVHRAGIATH</Hsp_hseq>
+      <Hsp_midline>E+ ++L+        IT NRP   NA+S  M   I   LK    D ++ + +  G G   + +G D+K L       Q++  T      E++  N      KP VA+++G  +G  V +        A++R+ F  P + +   P+    Y  P++ G      + L G +L  R+    G+ T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|27375</Hit_id>
+  <Hit_def>ENSMUSP00000045606.6 pep chromosome:GRCm38:1:52845046:52920986:1 gene:ENSMUSG00000041426.12 transcript:ENSMUST00000044478.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hibch description:3-hydroxyisobutyryl-Coenzyme A hydrolase [Source:MGI Symbol;Acc:MGI:1923792]</Hit_def>
+  <Hit_accession>27375</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.11009e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ESKDILVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTD-NSVITVFTGTGD-YYSSGNDLKNLINDAGEIQDVVATSTKILREFV--NCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTE</Hsp_qseq>
+      <Hsp_hseq>EAAEVLLERRGCGGVITLNRPKFLNALSLNMIRQIYPQLKTWEQDPDTFLIIIKGAGGKAFCAGGDIKALSEAKKARQNL--TQDLFREEYILNNAIASCQKPYVALIDGITMGGGVGLSVHGQFRVATERSLFAMPETGIGLFPDVGGGYFLPRLQGKL-GYFLALTGYRLKGRDVHRAGIATH</Hsp_hseq>
+      <Hsp_midline>E+ ++L+        IT NRP   NA+S  M   I   LK    D ++ + +  G G   + +G D+K L       Q++  T      E++  N      KP VA+++G  +G  V +        A++R+ F  P + +   P+    Y  P++ G      + L G +L  R+    G+ T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20079</Hit_id>
+  <Hit_def>ENSMUSP00000020034.4 pep chromosome:GRCm38:10:29313500:29347469:1 gene:ENSMUSG00000019883.11 transcript:ENSMUST00000020034.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc1 description:enoyl Coenzyme A hydratase domain containing 1 [Source:MGI Symbol;Acc:MGI:1277169]</Hit_def>
+  <Hit_accession>20079</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.29204e-08</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMH---ALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFP---ESTFETEVWTRLKTYSKLSPNVMR</Hsp_qseq>
+      <Hsp_hseq>LLKKQNGIGILTLNNPNKMNAFSGVMMLQLLERVIELENWTEGKGLI--IHGAKNTFCSGSDL-NAVKALSTPESGVALSM-FMQNTLTRFMRLPLISVALVQGWAMGGGAELTTACDFRLMTEESVIRFVHKEMGIVPSWGGTSRLVEIIGSRQALKVLSGTLKLDSKEALNIGLTDEVLQPSDETTALEQAQEWLEKFVSGPPQVIR</Hsp_hseq>
+      <Hsp_midline>L+  ++GI  +T N P K NA S  M L ++     L+N +    +I    G  + + SG+DL N +      +  VA S   ++  +  F+  P   VA+V G A+G    +    D    ++ +       ++  +P    T    +I+G  +A ++L    KL ++EA   GL  EV     E+T   +    L+ +    P V+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20077</Hit_id>
+  <Hit_def>ENSMUSP00000125553.1 pep chromosome:GRCm38:10:29313166:29345560:1 gene:ENSMUSG00000019883.11 transcript:ENSMUST00000160399.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc1 description:enoyl Coenzyme A hydratase domain containing 1 [Source:MGI Symbol;Acc:MGI:1277169]</Hit_def>
+  <Hit_accession>20077</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.91025e-08</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMH---ALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFP---ESTFETEVWTRLKTYSKLSPNVMR</Hsp_qseq>
+      <Hsp_hseq>LLKKQNGIGILTLNNPNKMNAFSGVMMLQLLERVIELENWTEGKGLI--IHGAKNTFCSGSDL-NAVKALSTPESGVALSM-FMQNTLTRFMRLPLISVALVQGWAMGGGAELTTACDFRLMTEESVIRFVHKEMGIVPSWGGTSRLVEIIGSRQALKVLSGTLKLDSKEALNIGLTDEVLQPSDETTALEQAQEWLEKFVSGPPQVIR</Hsp_hseq>
+      <Hsp_midline>L+  ++GI  +T N P K NA S  M L ++     L+N +    +I    G  + + SG+DL N +      +  VA S   ++  +  F+  P   VA+V G A+G    +    D    ++ +       ++  +P    T    +I+G  +A ++L    KL ++EA   GL  EV     E+T   +    L+ +    P V+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|46505</Hit_id>
+  <Hit_def>ENSMUSP00000021913.9 pep chromosome:GRCm38:13:52835119:52929661:-1 gene:ENSMUSG00000021460.16 transcript:ENSMUST00000021913.15 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Auh description:AU RNA binding protein/enoyl-coenzyme A hydratase [Source:MGI Symbol;Acc:MGI:1338011]</Hit_def>
+  <Hit_accession>46505</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.71989e-07</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>GITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLIN-DAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTR----LKTYSKLSPNVMRISKELIRKHEKQKLYT</Hsp_qseq>
+      <Hsp_hseq>GIVVLGINRAYGKNALSKNLLKMLSKAVDALKSDKKVRTIIIRSEVPGIFCAGADLKERAKMHSSEVGPFVSK----IRSVINDIANLPVPTIAAIDGLALGGGLELALACDIRVAASSAKMGLVETKLAIIPGGGGTQRLPRAIGMSLAKELIFSARVLDGQEAKAVGLISHVLEQNQEGDAAYRKALDLAREFLPQGPVAMRVAKLAINQGMEVDLVT</Hsp_hseq>
+      <Hsp_midline>GI  +  NR   KNA+S  +   +  A+    +D  V T+   +     + +G DLK      + E+   V+     +R  +N   + P P +A ++G A+G  + +    D   A+  A      ++L+ IP    T   P+ +G + A E++   + L  +EA A GL++ V  ++      + +     + +    P  MR++K  I +  +  L T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|46510</Hit_id>
+  <Hit_def>ENSMUSP00000116179.1 pep chromosome:GRCm38:13:52840869:52929458:-1 gene:ENSMUSG00000021460.16 transcript:ENSMUST00000123599.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Auh description:AU RNA binding protein/enoyl-coenzyme A hydratase [Source:MGI Symbol;Acc:MGI:1338011]</Hit_def>
+  <Hit_accession>46510</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>6.16076e-07</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLIN-DAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPES</Hsp_qseq>
+      <Hsp_hseq>EGIVVLGINRAYGKNALSKNLLKMLSKAVDALKSDKKVRTIIIRSEVPGIFCAGADLKERAKMHSSEVGPFVSK----IRSVINDIANLPVPTIAAIDGLALGGGLELALACDIRVAASSAKMGLVETKLAIIPGGGGTQRLPRAIGMSLAKELIFSARVLDGQEAKAVGLISHVLEQN</Hsp_hseq>
+      <Hsp_midline>+GI  +  NR   KNA+S  +   +  A+    +D  V T+   +     + +G DLK      + E+   V+     +R  +N   + P P +A ++G A+G  + +    D   A+  A      ++L+ IP    T   P+ +G + A E++   + L  +EA A GL++ V  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|24968</Hit_id>
+  <Hit_def>ENSMUSP00000023559.5 pep chromosome:GRCm38:16:21761287:21787844:-1 gene:ENSMUSG00000022853.6 transcript:ENSMUST00000023559.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Ehhadh description:enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase [Source:MGI Symbol;Acc:MGI:1277964]</Hit_def>
+  <Hit_accession>24968</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.08521e-05</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>NAISFQMYLDIMHALKNASTDNSV-ITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEV-----------FPESTFETEVWTR--LKTYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALR</Hsp_qseq>
+      <Hsp_hseq>NAISPTVITEVRNGLQKASLDHTVRAIVICGANDNFCAGADIHGFKSPTG----------LTLGSLVDEIQRYQKPVVAAIQGVALGGGLELALGCHYRIANAKARVGFPEVMLGILPGARGTQLLPRVVGVPVALDLITSGRHISTDEALKLGILDVVVKSDPVEEAIKFAQTVIGKPIEPRRILNKPVPSLPNMDSVFAEAIAKVRKQYPGRLAPETCVRSVQASVKHPYEVAIK</Hsp_hseq>
+      <Hsp_midline>NAIS  +  ++ + L+ AS D++V   V  G  D + +G D+    +  G            L   V+    + KP+VA + G A+G  + +        A+ +A    P   L  +P A  T + P+++G   A +++  G+ ++  EA   G++  V           F ++     +  R  L       PN+  +  E I K  KQ    +  E C  +++   +  Y  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|46509</Hit_id>
+  <Hit_def>ENSMUSP00000121852.1 pep chromosome:GRCm38:13:52835119:52919232:-1 gene:ENSMUSG00000021460.16 transcript:ENSMUST00000137064.7 gene_biotype:protein_coding transcript_biotype:nonsense_mediated_decay gene_symbol:Auh description:AU RNA binding protein/enoyl-coenzyme A hydratase [Source:MGI Symbol;Acc:MGI:1338011]</Hit_def>
+  <Hit_accession>46509</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>8.73603e-05</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>KNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLIN-DAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTR----LKTYSKLSPNVMRISKELIRKHEKQKLYT</Hsp_qseq>
+      <Hsp_hseq>KNALSKNLLKMLSKAVDALKSDKKVRTIIIRSEVPGIFCAGADLKERAKMHSSEVGPFVSK----IRSVINDIANLPVPTIAAIDGLALGGGLELALACDIRVAASSAKMGLVETKLAIIPGGGGTQRLPRAIGMSLAKELIFSARVLDGQEAKAVGLISHVLEQNQEGDAAYRKALDLAREFLPQGPVAMRVAKLAINQGMEVDLVT</Hsp_hseq>
+      <Hsp_midline>KNA+S  +   +  A+    +D  V T+   +     + +G DLK      + E+   V+     +R  +N   + P P +A ++G A+G  + +    D   A+  A      ++L+ IP    T   P+ +G + A E++   + L  +EA A GL++ V  ++      + +     + +    P  MR++K  I +  +  L T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|36850</Hit_id>
+  <Hit_def>ENSMUSP00000120976.1 pep chromosome:GRCm38:5:30118304:30155162:-1 gene:ENSMUSG00000025745.11 transcript:ENSMUST00000156859.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hadha description:hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit [Source:MGI Symbol;Acc:MGI:2135593]</Hit_def>
+  <Hit_accession>36850</Hit_accession>
+  <Hit_len>763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000202995</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PKPLVAVVNGPAVGIAVTI-LALFDAVFASDRAT-FHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEV</Hsp_qseq>
+      <Hsp_hseq>PKPVVAAISGSCLGGGLELAIACQYRIATKDRKTVLGVPEVLLGILPGAGGTQRLPKMVGVPAAFDMMLTGRNIRADRAKKMGLVDQL</Hsp_hseq>
+      <Hsp_midline>PKP+VA ++G  +G  + + +A    +   DR T    P   L  +P A  T   PK++G   A +M+L G+ + A  A   GLV ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19264</Hit_id>
+  <Hit_def>ENSMUSP00000112009.1 pep chromosome:GRCm38:4:108165518:108179068:1 gene:ENSMUSG00000028601.18 transcript:ENSMUST00000116307.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc2 description:enoyl Coenzyme A hydratase domain containing 2 [Source:MGI Symbol;Acc:MGI:1289238]</Hit_def>
+  <Hit_accession>19264</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000524953</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAV-GIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSK----LSPNVMRISKELIRKHEKQKLYTVNAEECAAALERMPREEYAKALRNFLFRKA</Hsp_qseq>
+      <Hsp_hseq>LTGPNQGITEILMNRPNARNALGNVFVSELLEALAQLREDQQVRVLLFRSAVKGVFCAGADLK----EREQMSDVE----------VGTFVQRLRGLMSEIASSAVMGLIETTRGL---------------------LPGAGGTQRLPRCLGVALAKELIFTGRRLNGAQARELGLVNHAVAQNEEGNAAYHRALALAQEILPQAPIAVRLGKVAIDRGMEVDIASGMAIEQMCYAQNIPTQDRLEGMAAFREKRA</Hsp_hseq>
+      <Hsp_midline>L     GIT+I  NRP  +NA+      +++ AL     D  V  +   +     + +G DLK    +  ++ DV           V  F+   + L++ +   AV G+  T   L                     +P A  T   P+ +G   A E++  G++L   +A   GLV     ++      + R    ++     +P  +R+ K  I +  +  + +  A E     + +P ++  + +  F  ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6684</Hit_id>
+  <Hit_def>ENSMUSP00000027634.6 pep chromosome:GRCm38:1:120113280:120121078:-1 gene:ENSMUSG00000026385.16 transcript:ENSMUST00000027634.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Dbi description:diazepam binding inhibitor [Source:MGI Symbol;Acc:MGI:94865]</Hit_def>
+  <Hit_accession>6684</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00289628</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>KPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>RPGLLDLKGKAKWDSWNKLKGTSKESAMKTYVEKVDEL</Hsp_hseq>
+      <Hsp_midline>+PG+ +   KA WD+ N L    KE+A K YV+ V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6686</Hit_id>
+  <Hit_def>ENSMUSP00000108267.1 pep chromosome:GRCm38:1:120113337:120120138:-1 gene:ENSMUSG00000026385.16 transcript:ENSMUST00000112648.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Dbi description:diazepam binding inhibitor [Source:MGI Symbol;Acc:MGI:94865]</Hit_def>
+  <Hit_accession>6686</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00335949</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>KPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>RPGLLDLKGKAKWDSWNKLKGTSKESAMKTYVEKVDEL</Hsp_hseq>
+      <Hsp_midline>+PG+ +   KA WD+ N L    KE+A K YV+ V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14027</Hit_id>
+  <Hit_def>ENSMUSP00000024946.5 pep chromosome:GRCm38:17:24426683:24439316:1 gene:ENSMUSG00000024132.5 transcript:ENSMUST00000024946.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Eci1 description:enoyl-Coenzyme A delta isomerase 1 [Source:MGI Symbol;Acc:MGI:94871]</Hit_def>
+  <Hit_accession>14027</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00744792</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>GKRGADEKARE--SKDILVTSED--GITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSV--ITVFTGTGDYYSSGNDLKNLI--NDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNG--PAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKLTAREAWAQGLVTEVFPESTFETEVWTRLKTYSKLSPNVMRISKELIRK</Hsp_qseq>
+      <Hsp_hseq>GRREAVDGARRFANKRVLVETEGPAGVAVMKLRNPPV-NSLSLECLTEFTISLEKLENDKSIRGVILTSECPGIFSAGLDLLEMYGRNPAHYAEYWKNVQELWLRLYTSNMI-----LVSAINGASPAGGCLLALCCDYRVMADNPKYTIGLNESLLGIVAPFWFKDMYVNTIGHREAERALQLGTLFSPAEALKVGVVDEVVPEDQVHSKARSVMTKWLAIPDHSRQLTKNMMRK</Hsp_hseq>
+      <Hsp_midline>G+R A + AR   +K +LV +E   G+  +    P   N++S +   +   +L+    D S+  + + +     +S+G DL  +   N A   +         LR + +  I     LV+ +NG  PA G  + +   +  +  + + T     S L  +       M+   +G  +A   L  G   +  EA   G+V EV PE    ++  + +  +  +  +  +++K ++RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20078</Hit_id>
+  <Hit_def>ENSMUSP00000125048.1 pep chromosome:GRCm38:10:29313281:29344344:1 gene:ENSMUSG00000019883.11 transcript:ENSMUST00000161605.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc1 description:enoyl Coenzyme A hydratase domain containing 1 [Source:MGI Symbol;Acc:MGI:1277169]</Hit_def>
+  <Hit_accession>20078</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00959789</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMH---ALKNASTDNSVITVFTGTGDYYSSGNDLKNLINDAGEIQDVVATSTKILREFVNCFIDFPKPLVAVVNGPAVG</Hsp_qseq>
+      <Hsp_hseq>LLKKQNGIGILTLNNPNKMNAFSGVMMLQLLERVIELENWTEGKGLI--IHGAKNTFCSGSDL-NAVKALSTPESGVALSM-FMQNTLTRFMRLPLISVALVQGWAMG</Hsp_hseq>
+      <Hsp_midline>L+  ++GI  +T N P K NA S  M L ++     L+N +    +I    G  + + SG+DL N +      +  VA S   ++  +  F+  P   VA+V G A+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6687</Hit_id>
+  <Hit_def>ENSMUSP00000114705.2 pep chromosome:GRCm38:1:120113400:120120937:-1 gene:ENSMUSG00000026385.16 transcript:ENSMUST00000151708.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Dbi description:diazepam binding inhibitor [Source:MGI Symbol;Acc:MGI:94865]</Hit_def>
+  <Hit_accession>6687</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0100654</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>KPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>RPGLLDLKGKAKWDSWNKLKGTSKESAMKTYVEKVDEL</Hsp_hseq>
+      <Hsp_midline>+PG+ +   KA WD+ N L    KE+A K YV+ V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|62380</Hit_id>
+  <Hit_def>ENSMUSP00000079035.6 pep chromosome:GRCm38:1:155558120:155572288:1 gene:ENSMUSG00000033701.13 transcript:ENSMUST00000080138.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd6 description:acyl-Coenzyme A binding domain containing 6 [Source:MGI Symbol;Acc:MGI:1919732]</Hit_def>
+  <Hit_accession>62380</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.302844</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>PKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>PKPNFFDFEGKQKWEAWKALGDSSPSQAMQEYIAAVKKL</Hsp_hseq>
+      <Hsp_midline>PKP  F+F  K  W+A  ALG      A + Y+  V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|62382</Hit_id>
+  <Hit_def>ENSMUSP00000095136.3 pep chromosome:GRCm38:1:155558126:155587798:1 gene:ENSMUSG00000033701.13 transcript:ENSMUST00000097529.4 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd6 description:acyl-Coenzyme A binding domain containing 6 [Source:MGI Symbol;Acc:MGI:1919732]</Hit_def>
+  <Hit_accession>62382</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.346987</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>PKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>PKPNFFDFEGKQKWEAWKALGDSSPSQAMQEYIAAVKKL</Hsp_hseq>
+      <Hsp_midline>PKP  F+F  K  W+A  ALG      A + Y+  V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|62381</Hit_id>
+  <Hit_def>ENSMUSP00000049124.3 pep chromosome:GRCm38:1:155558122:155691330:1 gene:ENSMUSG00000033701.13 transcript:ENSMUST00000035560.8 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd6 description:acyl-Coenzyme A binding domain containing 6 [Source:MGI Symbol;Acc:MGI:1919732]</Hit_def>
+  <Hit_accession>62381</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.492437</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>PKPGVFNFVNKATWDARNALGSLPKETARKNYVDLVSSL</Hsp_qseq>
+      <Hsp_hseq>PKPNFFDFEGKQKWEAWKALGDSSPSQAMQEYIAAVKKL</Hsp_hseq>
+      <Hsp_midline>PKP  F+F  K  W+A  ALG      A + Y+  V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25422</Hit_id>
+  <Hit_def>ENSMUSP00000117325.1 pep chromosome:GRCm38:2:23069327:23087572:1 gene:ENSMUSG00000026781.15 transcript:ENSMUST00000155602.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd5 description:acyl-Coenzyme A binding domain containing 5 [Source:MGI Symbol;Acc:MGI:1921409]</Hit_def>
+  <Hit_accession>25422</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.704699</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVD</Hsp_qseq>
+      <Hsp_hseq>LSRPGFWDPIGRYKWDAWSSLGDMTKEEAMIAYVE</Hsp_hseq>
+      <Hsp_midline>+ +PG ++ + +  WDA ++LG + KE A   YV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19265</Hit_id>
+  <Hit_def>ENSMUSP00000114371.1 pep chromosome:GRCm38:4:108169715:108178932:1 gene:ENSMUSG00000028601.18 transcript:ENSMUST00000135718.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Echdc2 description:enoyl Coenzyme A hydratase domain containing 2 [Source:MGI Symbol;Acc:MGI:1289238]</Hit_def>
+  <Hit_accession>19265</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.06338</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSVITVF--TGTGDYYSSGNDLK</Hsp_qseq>
+      <Hsp_hseq>ITEILMNRPNARNALGNVFVSELLEALAQLREDQQVRVLLFRSAVKGVFCAGADLK</Hsp_hseq>
+      <Hsp_midline>IT+I  NRP  +NA+      +++ AL     D  V  +   +     + +G DLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19262</Hit_id>
+  <Hit_def>ENSMUSP00000124746.1 pep chromosome:GRCm38:4:108165466:108179071:1 gene:ENSMUSG00000028601.18 transcript:ENSMUST00000130942.7 gene_biotype:protein_coding transcript_biotype:nonsense_mediated_decay gene_symbol:Echdc2 description:enoyl Coenzyme A hydratase domain containing 2 [Source:MGI Symbol;Acc:MGI:1289238]</Hit_def>
+  <Hit_accession>19262</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.11118</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LVTSEDGITKITFNRPTKKNAISFQMYLDIMHALKNASTDNSV</Hsp_qseq>
+      <Hsp_hseq>LTGPNQGITEILMNRPNARNALGNVFVSELLEALAQLREDQQV</Hsp_hseq>
+      <Hsp_midline>L     GIT+I  NRP  +NA+      +++ AL     D  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25419</Hit_id>
+  <Hit_def>ENSMUSP00000110172.1 pep chromosome:GRCm38:2:23069068:23114508:1 gene:ENSMUSG00000026781.15 transcript:ENSMUST00000114526.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd5 description:acyl-Coenzyme A binding domain containing 5 [Source:MGI Symbol;Acc:MGI:1921409]</Hit_def>
+  <Hit_accession>25419</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.5825</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVD</Hsp_qseq>
+      <Hsp_hseq>LSRPGFWDPIGRYKWDAWSSLGDMTKEEAMIAYVE</Hsp_hseq>
+      <Hsp_midline>+ +PG ++ + +  WDA ++LG + KE A   YV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25423</Hit_id>
+  <Hit_def>ENSMUSP00000110175.2 pep chromosome:GRCm38:2:23069072:23114510:1 gene:ENSMUSG00000026781.15 transcript:ENSMUST00000114529.8 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd5 description:acyl-Coenzyme A binding domain containing 5 [Source:MGI Symbol;Acc:MGI:1921409]</Hit_def>
+  <Hit_accession>25423</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.62531</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVD</Hsp_qseq>
+      <Hsp_hseq>LSRPGFWDPIGRYKWDAWSSLGDMTKEEAMIAYVE</Hsp_hseq>
+      <Hsp_midline>+ +PG ++ + +  WDA ++LG + KE A   YV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25424</Hit_id>
+  <Hit_def>ENSMUSP00000110169.2 pep chromosome:GRCm38:2:23068201:23114510:1 gene:ENSMUSG00000026781.15 transcript:ENSMUST00000114523.8 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd5 description:acyl-Coenzyme A binding domain containing 5 [Source:MGI Symbol;Acc:MGI:1921409]</Hit_def>
+  <Hit_accession>25424</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.71256</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVD</Hsp_qseq>
+      <Hsp_hseq>LSRPGFWDPIGRYKWDAWSSLGDMTKEEAMIAYVE</Hsp_hseq>
+      <Hsp_midline>+ +PG ++ + +  WDA ++LG + KE A   YV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25420</Hit_id>
+  <Hit_def>ENSMUSP00000028121.7 pep chromosome:GRCm38:2:23068168:23114510:1 gene:ENSMUSG00000026781.15 transcript:ENSMUST00000028121.13 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Acbd5 description:acyl-Coenzyme A binding domain containing 5 [Source:MGI Symbol;Acc:MGI:1921409]</Hit_def>
+  <Hit_accession>25420</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.78825</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MPKPGVFNFVNKATWDARNALGSLPKETARKNYVD</Hsp_qseq>
+      <Hsp_hseq>LSRPGFWDPIGRYKWDAWSSLGDMTKEEAMIAYVE</Hsp_hseq>
+      <Hsp_midline>+ +PG ++ + +  WDA ++LG + KE A   YV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|51636</Hit_id>
+  <Hit_def>ENSMUSP00000032237.6 pep chromosome:GRCm38:6:118383381:118419474:-1 gene:ENSMUSG00000030138.8 transcript:ENSMUST00000032237.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Bms1 description:BMS1, ribosome biogenesis factor [Source:MGI Symbol;Acc:MGI:2446132]</Hit_def>
+  <Hit_accession>51636</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.33879</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>VNCFIDFPKPLVAVVNGPAVGIAVTILALFDAVFASDRATFHTPFSQLSQIPEACSTYMFPKIMGPTKAAEMLLFGKKL-TAREAWAQGLVTEVFP</Hsp_qseq>
+      <Hsp_hseq>INVMIDLAK------------VADLVLMLIDASFGFEMETF--------EFLNICQVHGFPKIMGVLTHLDSFKHNKQLKKTKKRLKHRFWTEVYP</Hsp_hseq>
+      <Hsp_midline>+N  ID  K            +A  +L L DA F  +  TF        +    C  + FPKIMG     +     K+L   ++       TEV+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|53052</Hit_id>
+  <Hit_def>ENSMUSP00000153419.1 pep chromosome:GRCm38:13:81095069:81351626:-1 gene:ENSMUSG00000069170.14 transcript:ENSMUST00000224088.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Adgrv1 description:adhesion G protein-coupled receptor V1 [Source:MGI Symbol;Acc:MGI:1274784]</Hit_def>
+  <Hit_accession>53052</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.41908</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VNKATWDARNALGSLPKETARKNYV-------DLVSSLSSSSEAPSQGKRG-----ADEKARESKDILVTSEDG</Hsp_qseq>
+      <Hsp_hseq>INKSTQNLINAMEEVPSDWERSSFQQTSQASPDLKTSPQNGASFPSSGGYGPGSLIADEESQEFDDLIFALKTG</Hsp_hseq>
+      <Hsp_midline>+NK+T +  NA+  +P +  R ++        DL +S  + +  PS G  G     ADE+++E  D++   + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|53050</Hit_id>
+  <Hit_def>ENSMUSP00000122358.1 pep chromosome:GRCm38:13:81095068:81343315:-1 gene:ENSMUSG00000069170.14 transcript:ENSMUST00000128120.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Adgrv1 description:adhesion G protein-coupled receptor V1 [Source:MGI Symbol;Acc:MGI:1274784]</Hit_def>
+  <Hit_accession>53050</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.41908</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VNKATWDARNALGSLPKETARKNYV-------DLVSSLSSSSEAPSQGKRG-----ADEKARESKDILVTSEDG</Hsp_qseq>
+      <Hsp_hseq>INKSTQNLINAMEEVPSDWERSSFQQTSQASPDLKTSPQNGASFPSSGGYGPGSLIADEESQEFDDLIFALKTG</Hsp_hseq>
+      <Hsp_midline>+NK+T +  NA+  +P +  R ++        DL +S  + +  PS G  G     ADE+++E  D++   + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|29441</Hit_id>
+  <Hit_def>ENSMUSP00000065291.5 pep chromosome:GRCm38:9:7347374:7369499:1 gene:ENSMUSG00000049723.14 transcript:ENSMUST00000065079.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Mmp12 description:matrix metallopeptidase 12 [Source:MGI Symbol;Acc:MGI:97005]</Hit_def>
+  <Hit_accession>29441</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.49297</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>TYSKLSPNVMRISKELIRKHEKQKLYTVNAEECAAAL</Hsp_qseq>
+      <Hsp_hseq>TYRYLNPSTFRLSADDIRNIQSLYVHVVNKEVCFSSL</Hsp_hseq>
+      <Hsp_midline>TY  L+P+  R+S + IR  +   ++ VN E C ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>63541</Statistics_db-num>
+      <Statistics_db-len>27124302</Statistics_db-len>
+      <Statistics_hsp-len>105</Statistics_hsp-len>
+      <Statistics_eff-space>4335929364</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
